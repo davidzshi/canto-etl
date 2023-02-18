@@ -1,0 +1,20 @@
+CREATE TABLE canto_transactions (
+    blockHash VARCHAR(MAX),
+    blockNumber VARCHAR(MAX),
+    confirmations VARCHAR(MAX),
+    contractAddress VARCHAR(MAX),
+    cumulativeGasUsed VARCHAR(MAX),
+    fromAddress VARCHAR(MAX),
+    gas VARCHAR(MAX),
+    gasPrice VARCHAR(MAX),
+    gasUsed VARCHAR(MAX),
+    hash VARCHAR(MAX),
+    input VARCHAR(MAX),
+    isError VARCHAR(MAX),
+    nonce VARCHAR(MAX),
+    timeStamp VARCHAR(MAX),
+    toAddress VARCHAR(MAX),
+    transactionIndex VARCHAR(MAX),
+    txreceipt_status VARCHAR(MAX),
+    value VARCHAR(MAX)
+);
