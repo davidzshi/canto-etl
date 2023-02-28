@@ -8,7 +8,7 @@ MAX_RETRIES = 5
 INITIAL_BACKOFF = 1
 
 # Set the path to the accounts and state files
-ACCOUNTS_FILE = "account_etl/accounts.json"
+ACCOUNTS_FILE = "../account_etl/accounts.json"
 STATE_FILE = "token_state.json"
 
 # Load the current state from the state file, or start from the beginning if the file doesn't exist
